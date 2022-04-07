@@ -1,0 +1,4 @@
+bool cmp(res a, res b) { 
+    if(a.mark == b.mark) return a.number < b.number;
+    return a.mark >  b.mark;
+}
